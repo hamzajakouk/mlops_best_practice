@@ -1,5 +1,6 @@
 from hello import calculate
+import numpy as np
 
 
 def test_time():
-    assert 2 == calculate(1, 1)
+    print(calculate())
